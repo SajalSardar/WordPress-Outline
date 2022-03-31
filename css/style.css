@@ -1,74 +1,92 @@
-body{
+body {
   font-family: 'Raleway', sans-serif;
- 
+
 }
-h2.accordion-button{
+
+h2.accordion-button {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
   margin-bottom: 0;
 }
-h3{
+
+h3 {
   font-size: 16px;
   font-weight: 700;
   border-bottom: 2px solid #000;
   display: inline-block;
 }
 
-ul,ol,li,p{
+ul,
+ol,
+li,
+p {
   font-weight: 600;
 }
-.header{
-margin-bottom: 40px;
-}
-.header h2{
-font-weight: 700;
-margin-top: 10px;
-font-size: 28px;
-}
-.header h5{
-font-weight: 700;
+
+.header {
+  margin-bottom: 40px;
 }
 
-.accordion-body{
-background-color: #f1f6fa;
+.header h2 {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 28px;
 }
 
-.accordion-body ul li{
-line-height: 30px;
-font-size: 16px;
+.header h5 {
+  font-weight: 700;
 }
-.accordion-button:not(.collapsed){
-color: #ee2e24;
+
+.accordion-body {
+  background-color: #f1f6fa;
 }
-.left_menu{
-height: 100vh;
-overflow-y: auto;
-position: fixed;
-width: 350px;
+
+.accordion-body ul li {
+  line-height: 30px;
+  font-size: 16px;
 }
-.left_menu_inner{
-width: 100%;
+
+.accordion-button:not(.collapsed) {
+  color: #ee2e24;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-background-color: #ee2e24;
+
+.left_menu {
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  width: 350px;
 }
-.left_menu nav a{
-font-weight: 600;
-color: #ee2e24;
-font-size: 14px;
+
+.left_menu_inner {
+  width: 100%;
 }
-.left_menu nav a:hover{
-color: #ee2e24;
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: #ee2e24;
 }
-.left_menu nav h2{
-text-align: center;
-display: block;
-padding-top: 30px;
-padding-bottom: 10px;
-margin-bottom: 30px;
-font-size: 25px;
-font-weight: 700;
-background-color: #e7f1ff;
-color: #000;
+
+.left_menu nav a {
+  font-weight: 600;
+  color: #ee2e24;
+  font-size: 14px;
+  padding: 0.3rem 1rem;
+}
+
+.left_menu nav a:hover {
+  color: #ee2e24;
+}
+
+.left_menu nav h2 {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #e7f1ff;
+  color: #000;
+  padding-left: 15px;
+
 }
