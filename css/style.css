@@ -90,3 +90,7 @@ p {
   padding-left: 15px;
 
 }
+
+.nav-pills .nav-link{
+  width: 100%;
+}
